@@ -1,3 +1,4 @@
+@import '../../styles/font-face.css';
 .main {
     display: flex;
     flex-direction: column;
@@ -55,7 +56,7 @@
 }
 
 .header {
-    font-family: 'Monoton', cursive;
+    font-family: 'Bungee Shade', Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
 

@@ -13,7 +13,7 @@ state = {
 render() {
   return (
     <div className="main">
-      <h1 className='header' style={{color: contrast}}>Pomodoro</h1>
+      <h1 className='header'>Pomodoro</h1>
       <div className='infoIcon'>
         <img 
           src={InfoIconCircle} 
@@ -22,8 +22,7 @@ render() {
           height='20px'
           alt='info-icon' />
       </div>
-      <div><h3 style={{color: 'darkRed'}}>{error}</h3></div>
-      <Display color={color} />
+      <Display color='#48d1cc' />
       <h3>Version: {json.version}</h3>
     </div>
   );
