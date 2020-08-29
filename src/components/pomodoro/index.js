@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './pomodoro.css';
 import Display from '../display/index';
+import Buttons from '../buttons/index'
 import InfoIconCircle from './assets/infoicon.png';
 // import { } from '../modules/index.js';
 import json from '../../../package.json';
@@ -13,7 +14,7 @@ state = {
 render() {
   return (
     <div className="main">
-      <h1 className='header'>Pomodoro</h1>
+      <h1 className='header'>Pomodoro Clock</h1>
       <div className='infoIcon'>
         <img 
           src={InfoIconCircle} 
@@ -23,6 +24,7 @@ render() {
           alt='info-icon' />
       </div>
       <Display color='#48d1cc' />
+      <Buttons />
       <h3>Version: {json.version}</h3>
     </div>
   );
